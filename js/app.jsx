@@ -1,5 +1,4 @@
 const React = require('react')
-const ReactDOM = require('react-dom')
 const Layout = require('./Layout')
 const Login = require('./Login')
 const Templates = require('./Templates')
@@ -18,4 +17,4 @@ const App = () => (
   </Router>
 )
 
-ReactDOM.render(<App />, document.getElementById('app'))
+module.exports = App
